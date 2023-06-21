@@ -1,0 +1,70 @@
+body{
+     background:linear-gradient(90deg, #2f00ff 0%, #ee00ff 50%, #ff019d)
+}
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1.5rem 0;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-family: 'Miltonian', cursive;
+}
+canvas{
+    display:block;
+    margin: auto;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+@keyframes example{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#showsketch{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    width:200px;
+    height: 50px;
+    font-size:20px;
+}
+p{
+    font-size: 1.2;
+    line-height: 1.5;
+    margin: 1rem;
+    color: #333
+}
+.button{
+display: inline-block;
+padding: 10px 20px;
+font-size: 1.2rem;
+background-color: #011fff;
+text-align: center;
+text-decoration: none;
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+transition: background-color 0.3s ease;
+color:white;
+font-weight: bold;
+}
+.button:hover{
+    background-color:rgb(0, 255, 234);
+    font-size: 2.4rem;
+}
+#label{
+    font-family:cursive;
+    color:white;
+    font-size:25px;
+}
+#confidence{
+    font-family:cursive;
+    color:white;
+    font-size:25px;
+}
